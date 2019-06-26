@@ -1,0 +1,13 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://172.17.30.183:8761/eureka
+    fetch-registry: false
+  environment: prod
+  #server:
+    #enable-self-preservation: false
+spring:
+  application:
+    name: reg_server
+server:
+  port: 8761
